@@ -70,7 +70,7 @@ with open('palace_items.csv', 'w') as csvfile:
         try:
             # step 04
             driver1.find_element(By.CSS_SELECTOR,
-                                 ".product-single .cart-btn ")
+                                 ".product-single .cart-btn")
             # step 04
 
             print("Product " + url_product + " is available")
